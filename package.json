@@ -21,6 +21,8 @@
   },
   "dependencies": {
     "@rescript/react": "^0.10.1",
-    "bs-css-emotion": "^2.3.0"
+    "bs-css-emotion": "^2.3.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
   }
 }
