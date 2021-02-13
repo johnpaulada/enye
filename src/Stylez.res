@@ -7,11 +7,12 @@ let mainBg = style(. [
   width(vw(100.)),
   height(vh(100.)),
   padding(rem(1.)),
-  backgroundColor(rgb(51, 51, 51))
+  backgroundColor(rgb(51, 51, 51)),
+  flexWrap(wrap)
 ])
 
 let mainButton = style(. [
-  fontSize(em(25.)),
+  fontSize(em(20.)),
   background(none),
   border(px(0), none, currentColor),
   color(hex("fafafa")),
