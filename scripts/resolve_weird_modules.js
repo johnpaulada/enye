@@ -9,7 +9,7 @@ const filenames = files
 filenames.forEach(file => {
     const contents = fs.readFileSync(file, {encoding: "utf-8"})
     const correctContent = contents
-        .replace("../node_modules/", "")
-        .replace(/\.js(?=")/, "")
+        .replace(/\.\.\/node_modules\//g, "")
+        .replace(/\.js(?=")/g, "")
     fs.writeFileSync(file, correctContent)
 })
