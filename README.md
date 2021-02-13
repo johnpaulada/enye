@@ -13,6 +13,15 @@ npm run start:re
 npm run start
 ```
 
+If you want to test with SSL, do this instead:
+```sh
+npm run start:re
+npm run gen-cert
+npm run start:secure
+```
+
+`npm run gen-cert` will generate `snowpack.crt` and `snowpack.key` which will be used by `npm run start:secure`.
+
 **NOTE**: You'll need to edit the import statement of the generated `Stylez.js` before running `npm run start`.
 For deployment, there's no problem because it's being dealt with by a script in the build command.
 
