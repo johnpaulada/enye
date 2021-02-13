@@ -34,7 +34,7 @@ cat << EOF
 
 EOF
 
-./pre-snowpack.sh
+./scripts/pre-snowpack.sh
 
 cat << EOF
 

@@ -6,8 +6,8 @@
     "start:re": "bsb -make-world -w",
     "start": "snowpack dev",
     "start:secure": "snowpack dev --secure",
-    "build": "./build.sh",
-    "gen-cert": "./generate-certificate.sh"
+    "build": "./scripts/build.sh",
+    "gen-cert": "./scripts/generate-certificate.sh"
   },
   "keywords": [
     "rescript",
