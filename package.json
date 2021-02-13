@@ -7,7 +7,7 @@
     "start": "snowpack dev",
     "start:secure": "snowpack dev --secure",
     "build": "./build.sh",
-    "gen-cert": "npx devcert-cli generate localhost && mv localhost.cert snowpack.crt && mv localhost.key snowpack.key"
+    "gen-cert": "./generate-certificate.sh"
   },
   "keywords": [
     "rescript",
