@@ -7,14 +7,10 @@ module.exports = {
     public: '/',
     src: '/dist',
   },
+  exclude: ['**/node_modules/**/*', "**/src/*.res"],
   plugins: [
     /* ... */
   ],
-  packageOptions: {
-    knownEntrypoints: [
-      "bs-css-emotion"
-    ]
-  },
   devOptions: {
     /* ... */
   },
